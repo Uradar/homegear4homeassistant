@@ -1,13 +1,17 @@
-{
-  "name": "homegear4homeassistant",
-  "version": "1.2.3",
-  "slug": "homegear4homeassistant",
-  "description": "Homegear as a Hassio add-on",
-  "arch": ["armhf", "armv7", "aarch64", "amd64", "i386", "qemu"],
-  "startup": "before",
-  "boot": "auto",
-  "auto_uart":"true",
-  "gpio": true,
+    "name": "Homegear",
+    "version": "0.1",
+    "slug": "homegear",
+    "description": "Homegear hassio add-on",
+    "auto_uart": true,
+    "url": "https://github.com/tringler/hassio-homegear",
+    "startup": "services",
+    "arch": [
+      "aarch64",
+      "amd64",
+      "armhf",
+      "armv7",
+      "i386"
+    ],
   "privileged": [
     "SYS_ADMIN",
     "SYS_RAWIO"

@@ -3,7 +3,6 @@
     "slug": "homegear",
     "description": "Homegear hassio add-on",
     "auto_uart": true,
-    "url": "https://github.com/tringler/hassio-homegear",
     "startup": "services",
     "arch": [
       "aarch64",
@@ -12,10 +11,6 @@
       "armv7",
       "i386"
     ],
-  "privileged": [
-    "SYS_ADMIN",
-    "SYS_RAWIO"
-  ],
   "map": ["config:rw", "share:rw", "ssl:rw"],
   "ports": {
     "2001/tcp": 2001,
